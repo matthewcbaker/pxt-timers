@@ -42,10 +42,9 @@ class Timer {
     public reset(): void {
     }
 
-    //% block="millis (ms)"
     //% blockCombine
     //% weight=50
-    get millis(): number {
+    get milliseconds(): number {
         return this.total
     }
 
